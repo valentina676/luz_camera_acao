@@ -8,7 +8,7 @@ use Illuminate\Http\Request;
 use Illuminate\Routing\Controller;
 use Illuminate\Support\Facades\Hash;
 
-class UsuarioController extends Controller
+class UsuariosController extends Controller
 {
     public function index()
     {

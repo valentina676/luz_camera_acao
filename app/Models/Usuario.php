@@ -17,4 +17,28 @@ class Usuario extends Model
         'email',
         'pagamento',
     ];
+    function getAuthIdentifierName()
+    {
+        return 'id';
+    }
+    function getAuthIdentifier()
+    {
+        return $this->id;
+    }
+    function getAuthPassword()
+    {
+        return $this->password;
+    }
+    function getRememberToken()
+    {
+        
+    }
+    function setRememberToken($value)
+    {
+
+    }
+    function getRememberTokenName()
+    {
+
+    }
 }
