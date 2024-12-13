@@ -1,7 +1,6 @@
 <?php
 
 use App\Http\Controllers\UsuariosController;
-use App\Http\Controllers\Auth\GoogleController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -31,8 +30,6 @@ Route::prefix('usuarios')->middleware('auth')->group(function() {
 
     Route::put('/editar/{usuario}', [UsuariosController::class, 'editarGravar']);
 });
-
-// // quando acassar a rota via get animais ele vai pegar a funcao  controller e executar o index
 
 
 Route::get('login', [UsuariosController::class, 'login'])->name('login');

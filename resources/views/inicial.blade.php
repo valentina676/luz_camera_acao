@@ -6,5 +6,5 @@
 
 @section('conteudo')
     <h1 class="text-5xl font-semibold pb-6">Seja bem-vindo(a)</h1>
-    <p class="text-3xl pb-6">Veja nossos filmes que estãao em cataalogo</p>
+    <p class="text-3xl pb-6">Veja nossos filmes que estão em catalogados</p>
 @endsection
