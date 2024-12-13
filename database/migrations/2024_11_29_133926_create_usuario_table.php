@@ -15,7 +15,9 @@ return new class extends Migration
             $table->id();
             $table->string('name', 255);
             $table->string('email', 255);
-            $table->string('pagamento', 255);
+            $table->string('username', 255);
+            $table->string('password', 255);
+            $table->string('admin', 255);
             $table->timestamps();
         });
     }
